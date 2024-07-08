@@ -1,20 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Name from './Name';
+import Globe from './Globe';
+import Description from './Description';
+import Technologies from './Technologies';
+import Projects from './Projects';
+import Contacts from './Contacts';
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
 
   return (
     <>
-      <div>
-        <h1 className="bg-blue-600 text-cyan-300">Hello world</h1>
-        <button className='bg-indigo-600 text-amber-50'>Press me</button>
+      <div className='flex justify-center mt-20'>
+        <div className='w-[60rem] h-20 border'>
+          <Name />
+          <Globe />
+          <Description />
+          <Technologies />
+          <Projects />
+          <Contacts />
+        </div>
       </div>
       
     </>
   )
 }
 
-export default App
+
