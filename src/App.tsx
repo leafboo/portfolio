@@ -11,23 +11,24 @@ export default function App() {
   return (
     <>
       <div className='flex justify-center mt-20 text-zinc-50'>
-        <div className='flex justify-between w-[65rem] h-[40rem] border'>
+        <div className='flex justify-between w-[65rem]'>
 
-          <div className='w-[45rem] h-[40rem] border'> 
+          <div className='w-[45rem] h-[70.5rem] border'> 
             column 1
-            <div className=' flex flex-col'>
-                <span>Name</span>
-                <span>Description</span>
-                <span>Projects</span>
+            <div className=' flex flex-col gap-y-8'>
+                <Name />
+                <Description />
+                <Projects />
+                <br /><br /><br />
             </div>
           </div>
           
           <div className='w-[17rem] h-[40rem] border'>
             column 2
-            <div className=' flex flex-col'>
-                <span>Globe</span>
-                <span>Technologies</span>
-                <span>Contacts</span>
+            <div className=' flex flex-col gap-8'>
+                <Globe />
+                <Technologies />
+                <Contacts />
             </div>
           </div>
           
