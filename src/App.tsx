@@ -10,14 +10,27 @@ export default function App() {
 
   return (
     <>
-      <div className='flex justify-center mt-20'>
-        <div className='w-[60rem] h-20 border'>
-          <Name />
-          <Globe />
-          <Description />
-          <Technologies />
-          <Projects />
-          <Contacts />
+      <div className='flex justify-center mt-20 text-zinc-50'>
+        <div className='flex justify-between w-[65rem] h-[40rem] border'>
+
+          <div className='w-[45rem] h-[40rem] border'> 
+            column 1
+            <div className=' flex flex-col'>
+                <span>Name</span>
+                <span>Description</span>
+                <span>Projects</span>
+            </div>
+          </div>
+          
+          <div className='w-[17rem] h-[40rem] border'>
+            column 2
+            <div className=' flex flex-col'>
+                <span>Globe</span>
+                <span>Technologies</span>
+                <span>Contacts</span>
+            </div>
+          </div>
+          
         </div>
       </div>
       
