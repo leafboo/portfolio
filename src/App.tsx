@@ -13,8 +13,7 @@ export default function App() {
       <div className='flex justify-center mt-20 text-zinc-50'>
         <div className='flex justify-between w-[65rem]'>
 
-          <div className='w-[45rem] h-[70.5rem] border'> 
-            column 1
+          <div className='w-[45rem] h-[70.5rem]'> 
             <div className=' flex flex-col gap-y-8'>
                 <Name />
                 <Description />
@@ -23,8 +22,7 @@ export default function App() {
             </div>
           </div>
           
-          <div className='w-[17rem] h-[40rem] border'>
-            column 2
+          <div className='w-[17rem] h-[70.4rem]'>
             <div className=' flex flex-col gap-8'>
                 <Globe />
                 <Technologies />

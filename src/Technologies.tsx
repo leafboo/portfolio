@@ -1,7 +1,7 @@
 export default function Technologies(){
   return (
     <>
-      <div className='border h-[5rem]'>
+      <div className='border h-[26rem]'>
         Technologies
       </div>
     </>
