@@ -1,34 +1,45 @@
 import React from "react";
 
 export default function Globe(){
+  const [currentTime, setCurrentTime] = React.useState({
+    hours: 0,
+    minutes: 0,
+    seconds: 0
+  })
 
-  const [currentTime, setCurrentTime] = React.useState({})
+  const [currentDate, setCurrentDate] = React.useState({
+      month: 0,
+      day: 0,
+      year: 0
+    }
+  )
 
+    setInterval(() => {
+      const date = new Date()
+      setCurrentTime({
+        hours: date.getHours(),
+        minutes: date.getMinutes(),
+        seconds: date.getSeconds()
+      })
 
-    React.useEffect(() => {
-      try {
-        async function fetchTime() {
-          const response = await fetch("https://worldtimeapi.org/api/timezone/Asia/Manila")
-          const data = await response.json() 
-          setCurrentTime(data)
-        }
-        fetchTime()
-      } catch(err) {
-        console.log(err)
-      }
-    }, [currentTime])
+      setCurrentDate({
+        month: date.getMonth() + 1, // getMonth starts at 0 so add 1
+        day: date.getDate(),
+        year: date.getFullYear()
+      })
+      
+    }, 1000)
 
-    console.log(currentTime)
-
+    
   return (
     <>
       <div className='border h-[15rem]'>
         Globe
         <div>
-          Time: {currentTime.datetime}
+          Time: {currentTime.hours}:{currentTime.minutes}:{currentTime.seconds}
         </div>
         <div>
-          Date: 
+          Date: {currentDate.month}/{currentDate.day}/{currentDate.year}
         </div>
       </div>
     </>
