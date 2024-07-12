@@ -33,8 +33,8 @@ export default function Globe(){
     
   return (
     <>
-      <div className='border h-[15rem]'>
-        Globe
+      <div className='border h-[15rem] p-11'>
+        <span>Globe</span> <br /><br />
         <div>
           Time: {currentTime.hours}:{currentTime.minutes}:{currentTime.seconds}
         </div>
