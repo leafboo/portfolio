@@ -4,7 +4,11 @@ export default function Technologies(){
   return (
     <>
       <div className='border h-[26rem] p-8'>
-        <span>&gt; Technologies</span> <br /><br />
+        <span className="text-[#77B05F]">
+          &gt; Technologies
+        </span>
+        <br />
+        <br />
         
         <div className=" grid grid-cols-3 gap-3">
           <TechnologyButton image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/>
