@@ -5,7 +5,7 @@ export default function Name(){
         <div className="text-[#77B05F] text-4xl">&gt; Hello there,</div>
 
         
-        <div className="font-bol text-[4.3rem]">My name is Jan</div>
+        <div className="font-medium text-[4.3rem]">My name is Jan</div>
       </div>
     </>
   )
