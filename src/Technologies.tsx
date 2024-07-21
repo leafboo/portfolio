@@ -4,7 +4,7 @@ export default function Technologies(){
   return (
     <>
       <div className='border h-[30rem] p-8'>
-        <span className="text-[#77B05F]">
+        <span className="text-[#77B05F] font-normal text-2xl">
           &gt; Technologies
         </span>
         <br />
@@ -23,6 +23,8 @@ export default function Technologies(){
           <TechnologyButton image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"/>
           <TechnologyButton image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"/>
           <TechnologyButton image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"/>
+          <TechnologyButton image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"/>
+          <TechnologyButton image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"/>
         </div>
       </div>
     </>

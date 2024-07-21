@@ -4,7 +4,7 @@ export default function Projects(){
   return (
     <>
       <div className='border h-[21rem] p-11'>
-        <span className="text-[#77B05F]">&gt; Projects</span>
+        <span className="text-[#77B05F] font-medium text-3xl">&gt; Projects</span>
         <br />
         <br />
         
