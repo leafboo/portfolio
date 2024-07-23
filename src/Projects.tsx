@@ -3,7 +3,7 @@ import ProjectButton from "./assets/ProjectButton"
 export default function Projects(){
   return (
     <>
-      <div className='border h-[21rem] p-11'>
+      <div className='border h-[23rem] pl-16 pr-16 pt-14'>
         <span className="text-[#77B05F] font-medium text-3xl">&gt; Projects</span>
         <br />
         <br />

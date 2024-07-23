@@ -1,7 +1,7 @@
 export default function Description(){
   return (
     <>
-      <div className='border h-[23rem] p-11'>
+      <div className='border h-[23rem] p-16'>
         <span className="text-[#77B05F] font-medium text-3xl">&gt; About me</span> <br /><br />
         <div className=" leading-8">
           I am Jan Romel Caranguian, I'm a 3rd year college student majoring BSIT in the University of Saint Louis Tuguegarao expected to graduate in the year 2026. I mainly focus on web development specifically front end development.

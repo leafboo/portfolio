@@ -5,7 +5,7 @@ export default function Contacts(){
   return (
     <>
       <div className='flex items-center flex-col border h-[12rem] pt-7'>
-        <div className="text-2xl">
+        <div className="text-[1.4rem]">
           Contact me
         </div>
         <br />
