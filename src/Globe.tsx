@@ -1,7 +1,7 @@
 import React from "react";
-import Clock from "./assets/Clock.png"
-import Calendar from "./assets/Calendar.png"
-import Cloud from "./assets/Cloud.png"
+import Clock from "./assets/images/Clock.png"
+import Calendar from "./assets/images/Calendar.png"
+import Cloud from "./assets/images/Cloud.png"
 
 export default function Globe(){
   const [currentTime, setCurrentTime] = React.useState({
