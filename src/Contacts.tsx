@@ -10,8 +10,10 @@ export default function Contacts(){
         </div>
         <br />
         <div className="flex flex-row">
-          <ContactButton image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" />
-          <ContactButton image={GitHubLogo} />
+          <ContactButton image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
+                         link="https://www.linkedin.com/in/jan-romel-caranguian-67090b303/" />
+          <ContactButton image={GitHubLogo}
+                         link="https://github.com/leafboo" />
         </div>
       </div>
     </>
