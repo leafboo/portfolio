@@ -4,7 +4,7 @@ import GitHubLogo from "./assets/images/GihtubLogo.png"
 export default function Contacts(){
   return (
     <>
-      <div className='flex items-center flex-col border h-[12rem] pt-7'>
+      <div className='flex items-center flex-col border border-[#aba7a5] rounded-[.2rem] h-[12rem] pt-7'>
         <div className="text-[1.4rem]">
           Contact me
         </div>

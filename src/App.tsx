@@ -10,11 +10,11 @@ export default function App() {
 
   return (
     <>
-      <div className='flex justify-center mt-20 text-zinc-50'>
-        <div className='flex justify-between w-[70rem]'>
+      <div className='flex justify-center mt-20 text-[#F5EFEB]'>
+        <div className='flex w-[70rem] gap-x-9'>
 
           <div className='w-[50rem]'> 
-            <div className=' flex flex-col gap-y-8'>
+            <div className=' flex flex-col gap-y-9'>
                 <Name />
                 <Description />
                 <Projects />

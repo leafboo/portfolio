@@ -53,20 +53,27 @@ export default function Globe(){
     
   return (
     <>
-      <div className='border h-[15rem] p-11'>
-        <span>Globe</span> <br /><br />
-        <div>
-          <img src={Clock} className="inline-block mr-3" />
-          <span>{currentTime.hours}:{currentTime.minutes}:{currentTime.seconds}</span> 
+      <div className='border border-[#aba7a5] rounded-[.2rem] h-[16rem] p-11'>
+        <span>Globe here</span> 
+        <br />
+        <br />
+        <br />
+        <br />
+        <div className="leading-7">
+          <div>
+            <img src={Clock} className="inline-block mr-3" />
+            <span>{currentTime.hours}:{currentTime.minutes}:{currentTime.seconds} &nbsp;(PHT)</span> 
+          </div>
+          <div>
+            <img src={Calendar} className="inline-block mr-3"/>
+            <span>{currentDate.month}/{currentDate.day}/{currentDate.year}</span>
+          </div>
+          <div>
+            <img src={Cloud} className="inline-block mr-3"/>
+            <span>{weatherTemperature} &deg;C</span>
+          </div>
         </div>
-        <div>
-          <img src={Calendar} className="inline-block mr-3"/>
-          <span>{currentDate.month}/{currentDate.day}/{currentDate.year}</span>
-        </div>
-        <div>
-          <img src={Cloud} className="inline-block mr-3"/>
-          <span>{weatherTemperature} &deg;C</span>
-        </div>
+        
       </div>
     </>
   )

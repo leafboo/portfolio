@@ -3,7 +3,7 @@ import TechnologyButton from "./assets/TechnologyButton"
 export default function Technologies(){
   return (
     <>
-      <div className='border h-[30rem] p-8'>
+      <div className='border border-[#aba7a5] rounded-[.2rem] h-[30rem] p-8'>
         <span className="text-[#77B05F] font-normal text-2xl">
           &gt; Technologies
         </span>
