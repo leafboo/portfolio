@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Minecraft';
+  src: local("minecraft_font"),
+  url("./fonts/minecraft_font.ttf") format("truetype");
+}
+

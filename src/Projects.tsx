@@ -1,5 +1,9 @@
 import ProjectButton from "./assets/ProjectButton"
 
+const projectsFont = {
+  wordSpacing: '.45rem'
+}
+
 export default function Projects(){
   return (
     <>
@@ -8,7 +12,7 @@ export default function Projects(){
         <br />
         <br />
         
-        <div className=" grid grid-cols-1 gap-3">
+        <div className=" grid grid-cols-1 gap-3 font-Minecraft text-[.92rem]" style={projectsFont}>
           <ProjectButton text="Art Gallery" />
           <ProjectButton text="Todo List" />
           <ProjectButton text="MyAnimeList Clone" />

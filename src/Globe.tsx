@@ -54,7 +54,6 @@ export default function Globe(){
   return (
     <>
       <div className='border border-[#aba7a5] rounded-[.2rem] h-[16rem] p-11'>
-        <span>Globe here</span> 
         <br />
         <br />
         <br />
@@ -62,15 +61,15 @@ export default function Globe(){
         <div className="leading-7">
           <div>
             <img src={Clock} className="inline-block mr-3" />
-            <span>{currentTime.hours}:{currentTime.minutes}:{currentTime.seconds} &nbsp;(PHT)</span> 
+            <span className="font-Minecraft text-[.8rem]">{currentTime.hours} : {currentTime.minutes} : {currentTime.seconds} &nbsp;(PHT)</span> 
           </div>
           <div>
             <img src={Calendar} className="inline-block mr-3"/>
-            <span>{currentDate.month}/{currentDate.day}/{currentDate.year}</span>
+            <span className="font-Minecraft text-[.8rem]">{currentDate.month}/ {currentDate.day}/ {currentDate.year}</span>
           </div>
           <div>
             <img src={Cloud} className="inline-block mr-3"/>
-            <span>{weatherTemperature} &deg;C</span>
+            <span className="font-Minecraft text-[.8rem]">{weatherTemperature} &deg;C</span>
           </div>
         </div>
         

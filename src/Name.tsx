@@ -10,7 +10,7 @@ export default function Name(){
         <div className="font-medium text-[4.3rem]">
           My name is Jan
         </div>
-        <div className="absolute bottom-[-0.5rem] right-[3rem]">
+        <div className="absolute bottom-[-0.5rem] right-[2rem]">
           <OnlineStatus />
         </div>
       </div>

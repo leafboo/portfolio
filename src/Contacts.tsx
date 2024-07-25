@@ -5,7 +5,7 @@ export default function Contacts(){
   return (
     <>
       <div className='flex items-center flex-col border border-[#aba7a5] rounded-[.2rem] h-[12rem] pt-7'>
-        <div className="text-[1.4rem]">
+        <div className="font-Minecraft text-[1.1rem]">
           Contact me
         </div>
         <br />
