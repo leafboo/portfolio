@@ -4,6 +4,7 @@ import Description from './Description';
 import Technologies from './Technologies';
 import Projects from './Projects';
 import Contacts from './Contacts';
+import CoolWebsites from './CoolWebsites';
 import './App.css'
 
 export default function App() {
@@ -27,6 +28,7 @@ export default function App() {
                 <Globe />
                 <Technologies />
                 <Contacts />
+                <CoolWebsites />
             </div>
           </div>
           
