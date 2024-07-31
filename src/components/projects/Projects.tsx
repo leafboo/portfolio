@@ -1,4 +1,4 @@
-import ProjectButton from "./assets/ProjectButton"
+import ProjectButton from "./ProjectButton"
 
 const projectsFont = {
   wordSpacing: '.45rem'

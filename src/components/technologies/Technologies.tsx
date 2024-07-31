@@ -1,4 +1,4 @@
-import TechnologyButton from "./assets/TechnologyButton"
+import TechnologyButton from "./TechnologyButton"
 
 export default function Technologies(){
   return (

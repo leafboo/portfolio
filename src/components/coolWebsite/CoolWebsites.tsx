@@ -1,7 +1,7 @@
-import dimdenButton from "./assets/websiteButtons/dimden.gif"
-import melankorinButton from "./assets/websiteButtons/melankorin.gif"
-import feelingmachineButton from "./assets/websiteButtons/feelingmachine.gif"
-import lunospaceButton from "./assets/websiteButtons/lunospace.gif"
+import dimdenButton from "../../assets/websiteButtons/dimden.gif"
+import melankorinButton from "../../assets/websiteButtons/melankorin.gif"
+import feelingmachineButton from "../../assets/websiteButtons/feelingmachine.gif"
+import lunospaceButton from "../../assets/websiteButtons/lunospace.gif"
 
 export default function CoolWebsites() {
   return (

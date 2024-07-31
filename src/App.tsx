@@ -1,10 +1,10 @@
-import Name from './Name';
-import Globe from './Globe';
-import Description from './Description';
-import Technologies from './Technologies';
-import Projects from './Projects';
-import Contacts from './Contacts';
-import CoolWebsites from './CoolWebsites';
+import Name from './components/name/Name';
+import Globe from './components/globe/Globe';
+import Description from './components/description/Description';
+import Technologies from './components/technologies/Technologies';
+import Projects from './components/projects/Projects';
+import Contacts from './components/contacts/Contacts';
+import CoolWebsites from './components/coolWebsite/CoolWebsites';
 import './App.css'
 
 export default function App() {

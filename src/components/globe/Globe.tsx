@@ -1,7 +1,8 @@
 import React from "react";
-import Clock from "./assets/images/Clock.png"
-import Calendar from "./assets/images/Calendar.png"
-import Cloud from "./assets/images/Cloud.png"
+import Clock from "../../assets/images/Clock.png"
+import Calendar from "../../assets/images/Calendar.png"
+import Cloud from "../../assets/images/Cloud.png"
+import InputField from "./InputField";
 
 export default function Globe(){
   const [currentTime, setCurrentTime] = React.useState({
@@ -58,7 +59,8 @@ export default function Globe(){
     
   return (
     <>
-      <div className='border border-[#aba7a5] rounded-[.2rem] h-[16rem] p-11'>
+     <div className="h-[18.5rem]">
+      <div className='border border-[#aba7a5] rounded-[.2rem] h-[16rem] p-11 mb-[.5rem]'>
         <br />
         <br />
         <br />
@@ -77,8 +79,10 @@ export default function Globe(){
             <span className="font-Minecraft text-[.8rem]">{weatherTemperature} &deg;C</span>
           </div>
         </div>
-        
       </div>
+      
+      <InputField />
+    </div>
     </>
   )
 }

@@ -1,5 +1,5 @@
-import ContactButton from "./assets/ContactButton"
-import GitHubLogo from "./assets/images/GihtubLogo.png"
+import ContactButton from "./ContactButton"
+import GitHubLogo from "../../assets/images/GihtubLogo.png"
 
 export default function Contacts(){
   return (

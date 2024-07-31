@@ -1,4 +1,4 @@
-import OnlineStatus from "./assets/OnlineStatus"
+import OnlineStatus from "./OnlineStatus"
 
 export default function Name(){
   return (
