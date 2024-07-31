@@ -1,6 +1,7 @@
 import dimdenButton from "./assets/websiteButtons/dimden.gif"
 import melankorinButton from "./assets/websiteButtons/melankorin.gif"
 import feelingmachineButton from "./assets/websiteButtons/feelingmachine.gif"
+import lunospaceButton from "./assets/websiteButtons/lunospace.gif"
 
 export default function CoolWebsites() {
   return (
@@ -14,6 +15,7 @@ export default function CoolWebsites() {
           <a href="https://dimden.dev/" target="_blank"><img src={dimdenButton} /></a>
           <a href="https://melankorin.net/" target="_blank"><img src={melankorinButton} /></a>
           <a href="https://feelingmachine.moe" target="_blank"><img src={feelingmachineButton}/></a>
+          <a href="https://lostlove.neocities.org/#" target="_blank"><img src={lunospaceButton}/></a>
         </div>
         
         

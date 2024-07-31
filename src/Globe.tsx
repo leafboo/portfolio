@@ -40,13 +40,18 @@ export default function Globe(){
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?id=${1680932}&appid=${myApiKey}`;
 
     React.useEffect(() => {
-      async function fetchWeatherData() {
-        const response = await fetch(apiUrl);
-        const data = await response.json();
-        setWeatherTemperature(Number((data.main.temp - 273.15).toFixed(0)));
+      try {
+        async function fetchWeatherData() {
+          const response = await fetch(apiUrl);
+          const data = await response.json();
+          setWeatherTemperature(Number((data.main.temp - 273.15).toFixed(0)));
+        }
+        fetchWeatherData();
+      } catch(err) {
+        console.error(err)
       }
-      fetchWeatherData();
-    })
+      
+    }, [])
 
 
 
