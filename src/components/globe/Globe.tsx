@@ -66,16 +66,16 @@ export default function Globe(){
         <br />
         <br />
         <div className="leading-7">
-          <div>
-            <img src={Clock} className="inline-block mr-3" />
+          <div className="flex items-center ">
+            <img src={Clock} className=" mr-3" />
             <span className="font-Minecraft text-[.8rem]">{currentTime.hours} : {currentTime.minutes} : {currentTime.seconds} &nbsp;(PHT)</span> 
           </div>
-          <div>
-            <img src={Calendar} className="inline-block mr-3"/>
+          <div className="flex items-center">
+            <img src={Calendar} className="mr-3"/>
             <span className="font-Minecraft text-[.8rem]">{currentDate.month}/ {currentDate.day}/ {currentDate.year}</span>
           </div>
-          <div>
-            <img src={Cloud} className="inline-block mr-3"/>
+          <div className="flex items-center">
+            <img src={Cloud} className="mr-3"/>
             <span className="font-Minecraft text-[.8rem]">{weatherTemperature} &deg;C</span>
           </div>
         </div>
